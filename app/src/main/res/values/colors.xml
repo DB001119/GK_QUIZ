@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgDark">#1C1C1E</color>
+    <color name="neonMint">#7DF9FF</color>
+    <color name="surfaceDark">#2D2D30</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="textSecondary">#A1A1AA</color>
+    <color name="btnInactive">#0F0F0F</color>
+    <color name="strokeDark">#333333</color>
+</resources>

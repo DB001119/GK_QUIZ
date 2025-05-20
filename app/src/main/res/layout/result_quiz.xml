@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#1C1C1E">
+
+    <!-- Title -->
+
+    <!-- Score Display -->
+
+    <!-- Feedback Message -->
+
+    <!-- Retry Button -->
+
+    <!-- Back to Main Menu Button -->
+    <TextView
+        android:id="@+id/textViewResultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Quiz Results"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Your Score: 0/20"
+        android:textColor="#00FF16"
+        android:textSize="24sp"
+        android:fontFamily="@font/jetbrains_mono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewResultTitle" />
+
+    <TextView
+        android:id="@+id/textViewFeedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Great job!"
+        android:textColor="#9B9B9B"
+        android:textSize="18sp"
+        android:fontFamily="@font/jetbrains_mono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewScore"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <Button
+        android:id="@+id/buttonRetry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#7DF9FF"
+        android:text="Retry Quiz"
+        android:textColor="#1C1C1E"
+        android:textSize="40px"
+        android:fontFamily="@font/jetbrains_mono"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewFeedback"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <Button
+        android:id="@+id/buttonViewScores"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7DF9FF"
+        android:text="View Scores"
+        android:textColor="#1C1C1E"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonRetry"
+        app:layout_constraintVertical_bias="0.378"
+        app:layout_constraintWidth_percent="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

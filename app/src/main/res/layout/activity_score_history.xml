@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#1C1C1E">
+
+    <TextView
+        android:id="@+id/tvScoreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="40dp"
+        android:text="Last 10 Quiz Scores"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1C1C1E">
+
+        <TextView
+            android:id="@+id/tvScoreList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/jetbrains_mono"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnRetryQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retry Quiz"
+        android:textColor="#1C1C1E"
+        android:backgroundTint="#7DF9FF"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="@font/jetbrains_mono"/>
+
+    <Button
+        android:id="@+id/btnBackToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Start"
+        android:textColor="#1C1C1E"
+        android:backgroundTint="#7DF9FF"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="@font/jetbrains_mono"/>
+</LinearLayout>

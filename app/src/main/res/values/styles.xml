@@ -1,0 +1,12 @@
+<resources>
+    <style name="TextAppearance.QuizMaster.Headline" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textColor">@color/neonMint</item>
+    </style>
+
+    <style name="TextAppearance.QuizMaster.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+</resources>

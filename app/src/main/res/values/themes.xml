@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.QuizMaster" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Global font for headings & body -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.QuizMaster.Headline</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.QuizMaster.Body</item>
+
+        <!-- Colors -->
+        <item name="colorPrimary">@color/neonMint</item>
+        <item name="colorOnPrimary">@color/bgDark</item>
+        <item name="android:colorBackground">@color/bgDark</item>
+        <item name="colorSurface">@color/surfaceDark</item>
+        <item name="colorOnSurface">@color/textWhite</item>
+        <item name="colorSecondary">@color/textSecondary</item>
+    </style>
+</resources>

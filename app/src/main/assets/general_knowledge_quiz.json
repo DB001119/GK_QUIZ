@@ -1,0 +1,441 @@
+[
+{
+  "question": "Which company developed the GPT-4o model?",
+  "options": ["A. OpenAI", "B. Google", "C. Meta", "D. Anthropic"],
+  "answer": "A. OpenAI"
+},
+{
+"question": "What does API stand for?",
+"options": ["A. Application Programming Interface", "B. Advanced Program Integration", "C. Applied Protocol Interface", "D. Automated Program Input"],
+"answer": "A. Application Programming Interface"
+},
+{
+"question": "Which company owns GitHub?",
+"options": ["A. Amazon", "B. Apple", "C. Microsoft", "D. Oracle"],
+"answer": "C. Microsoft"
+},
+{
+"question": "What is the primary language used for Android app development?",
+"options": ["A. Swift", "B. Kotlin", "C. JavaScript", "D. Ruby"],
+"answer": "B. Kotlin"
+},
+{
+"question": "What is the main goal of cloud computing?",
+"options": ["A. Reduce costs and improve scalability", "B. Build hardware", "C. Eliminate security", "D. Sell software"],
+"answer": "A. Reduce costs and improve scalability"
+},
+{
+"question": "Which tech company created TensorFlow?",
+"options": ["A. Facebook", "B. Google", "C. IBM", "D. Intel"],
+"answer": "B. Google"
+},
+{
+"question": "What does SSD stand for in computing?",
+"options": ["A. Solid State Drive", "B. Secure Software Device", "C. Software State Disk", "D. Secure System Disk"],
+"answer": "A. Solid State Drive"
+},
+{
+"question": "Which protocol is used to transfer webpages?",
+"options": ["A. HTTP", "B. SMTP", "C. FTP", "D. POP3"],
+"answer": "A. HTTP"
+},
+{
+"question": "What is Docker used for?",
+"options": ["A. Shipping logistics", "B. Virtual machines", "C. Containerizing applications", "D. Audio streaming"],
+"answer": "C. Containerizing applications"
+},
+{
+"question": "Which programming language is most associated with data science?",
+"options": ["A. C++", "B. Java", "C. Python", "D. PHP"],
+"answer": "C. Python"
+},
+{
+"question": "Who won the Formula 1 championship in 2023?",
+"options": ["A. Lewis Hamilton", "B. Max Verstappen", "C. Charles Leclerc", "D. Lando Norris"],
+"answer": "B. Max Verstappen"
+},
+{
+"question": "Which team does Lewis Hamilton drive for (as of 2025)?",
+"options": ["A. Red Bull", "B. McLaren", "C. Mercedes", "D. Ferrari"],
+"answer": "C. Mercedes"
+},
+{
+"question": "Which country won the 2022 FIFA World Cup?",
+"options": ["A. France", "B. Brazil", "C. Argentina", "D. Germany"],
+"answer": "C. Argentina"
+},
+{
+"question": "In cricket, how many players are on the fielding team during play?",
+"options": ["A. 10", "B. 11", "C. 9", "D. 12"],
+"answer": "B. 11"
+},
+{
+"question": "How long is a standard marathon?",
+"options": ["A. 42.2 km", "B. 26.2 miles", "C. Both A and B", "D. 30 km"],
+"answer": "C. Both A and B"
+},
+{
+"question": "Who has won the most Olympic gold medals?",
+"options": ["A. Usain Bolt", "B. Simone Biles", "C. Michael Phelps", "D. Carl Lewis"],
+"answer": "C. Michael Phelps"
+},
+{
+"question": "Which country hosted the 2020 Summer Olympics (held in 2021)?",
+"options": ["A. China", "B. Japan", "C. USA", "D. Brazil"],
+"answer": "B. Japan"
+},
+{
+"question": "In tennis, what’s the score after deuce?",
+"options": ["A. 40-40", "B. Advantage", "C. Set Point", "D. Break Point"],
+"answer": "B. Advantage"
+},
+{
+"question": "Which sport uses the terms 'birdie' and 'eagle'?",
+"options": ["A. Golf", "B. Badminton", "C. Archery", "D. Tennis"],
+"answer": "A. Golf"
+},
+{
+"question": "Who won the Ballon d'Or in 2023?",
+"options": ["A. Kylian Mbappé", "B. Lionel Messi", "C. Erling Haaland", "D. Cristiano Ronaldo"],
+"answer": "B. Lionel Messi"
+},
+{
+"question": "Which country has the most FIFA World Cup titles?",
+"options": ["A. Germany", "B. France", "C. Argentina", "D. Brazil"],
+"answer": "D. Brazil"
+},
+{
+"question": "Which Indian cricketer is known as the 'Hitman'?",
+"options": ["A. MS Dhoni", "B. Virat Kohli", "C. Rohit Sharma", "D. KL Rahul"],
+"answer": "C. Rohit Sharma"
+},
+{
+"question": "What is the speed of light in vacuum?",
+"options": ["A. 300,000 km/s", "B. 150,000 km/s", "C. 299,792 km/s", "D. 350,000 km/s"],
+"answer": "C. 299,792 km/s"
+},
+{
+"question": "What is the unit of electric current?",
+"options": ["A. Volt", "B. Ampere", "C. Watt", "D. Ohm"],
+"answer": "B. Ampere"
+},
+{
+"question": "Who is known for the three laws of motion?",
+"options": ["A. Einstein", "B. Newton", "C. Tesla", "D. Galileo"],
+"answer": "B. Newton"
+},
+{
+"question": "Which particle has a negative charge?",
+"options": ["A. Neutron", "B. Proton", "C. Electron", "D. Photon"],
+"answer": "C. Electron"
+},
+{
+"question": "What is the formula for kinetic energy?",
+"options": ["A. mv", "B. 1/2 mv²", "C. mgh", "D. ma"],
+"answer": "B. 1/2 mv²"
+},
+{
+"question": "What is Ohm's Law?",
+"options": ["A. V = IR", "B. P = IV", "C. F = ma", "D. E = mc²"],
+"answer": "A. V = IR"
+},
+{
+"question": "What type of energy is stored in a stretched spring?",
+"options": ["A. Kinetic", "B. Thermal", "C. Potential", "D. Chemical"],
+"answer": "C. Potential"
+},
+{
+"question": "What does a voltmeter measure?",
+"options": ["A. Current", "B. Voltage", "C. Resistance", "D. Power"],
+"answer": "B. Voltage"
+},
+{
+"question": "What type of lens is used to correct short-sightedness?",
+"options": ["A. Convex", "B. Concave", "C. Cylindrical", "D. Spherical"],
+"answer": "B. Concave"
+},
+{
+"question": "Which law explains buoyant force?",
+"options": ["A. Bernoulli’s Law", "B. Archimedes’ Principle", "C. Pascal’s Law", "D. Newton’s Third Law"],
+"answer": "B. Archimedes’ Principle"
+},
+{
+"question": "Who sang the 2023 hit song 'Flowers'?",
+"options": ["A. Taylor Swift", "B. Billie Eilish", "C. Miley Cyrus", "D. Olivia Rodrigo"],
+"answer": "C. Miley Cyrus"
+},
+{
+"question": "Which artist released the album 'Midnights'?",
+"options": ["A. Adele", "B. Selena Gomez", "C. Taylor Swift", "D. Dua Lipa"],
+"answer": "C. Taylor Swift"
+},
+{
+"question": "Which group is known for the song 'Butter'?",
+"options": ["A. BTS", "B. Blackpink", "C. One Direction", "D. Stray Kids"],
+"answer": "A. BTS"
+},
+{
+"question": "Who is the lead singer of Coldplay?",
+"options": ["A. Adam Levine", "B. Chris Martin", "C. Ed Sheeran", "D. Dan Reynolds"],
+"answer": "B. Chris Martin"
+},
+{
+"question": "Which artist is known for 'Peaches' and 'Sorry'?",
+"options": ["A. Zayn Malik", "B. Justin Bieber", "C. The Weeknd", "D. Shawn Mendes"],
+"answer": "B. Justin Bieber"
+},
+{
+"question": "Who released the album 'Happier Than Ever'?",
+"options": ["A. Dua Lipa", "B. Billie Eilish", "C. Lana Del Rey", "D. Halsey"],
+"answer": "B. Billie Eilish"
+},
+{
+"question": "Which artist often collaborates with Bad Bunny?",
+"options": ["A. J Balvin", "B. Drake", "C. Shakira", "D. Rosalia"],
+"answer": "A. J Balvin"
+},
+{
+"question": "Which artist is associated with the XO record label?",
+"options": ["A. Post Malone", "B. Travis Scott", "C. The Weeknd", "D. Lil Nas X"],
+"answer": "C. The Weeknd"
+},
+{
+"question": "What genre is associated with Drake?",
+"options": ["A. Jazz", "B. Country", "C. Hip Hop", "D. Classical"],
+"answer": "C. Hip Hop"
+},
+{
+"question": "Which Australian singer released 'Dance Monkey'?",
+"options": ["A. Lorde", "B. Sia", "C. Tones and I", "D. Delta Goodrem"],
+"answer": "C. Tones and I"
+},
+{
+"question": "What vitamin is most abundant in oranges?",
+"options": ["A. Vitamin A", "B. Vitamin C", "C. Vitamin B12", "D. Vitamin D"],
+"answer": "B. Vitamin C"
+},
+{
+"question": "Sushi originates from which country?",
+"options": ["A. Korea", "B. Japan", "C. Thailand", "D. China"],
+"answer": "B. Japan"
+},
+{
+"question": "Which type of pasta is shaped like small rice grains?",
+"options": ["A. Fusilli", "B. Orzo", "C. Penne", "D. Farfalle"],
+"answer": "B. Orzo"
+},
+{
+"question": "What is tofu made from?",
+"options": ["A. Wheat", "B. Chickpeas", "C. Soybeans", "D. Lentils"],
+"answer": "C. Soybeans"
+},
+{
+"question": "Which fruit has its seeds on the outside?",
+"options": ["A. Grape", "B. Strawberry", "C. Kiwi", "D. Mango"],
+"answer": "B. Strawberry"
+},
+{
+"question": "What is the main ingredient in guacamole?",
+"options": ["A. Tomato", "B. Avocado", "C. Onion", "D. Cucumber"],
+"answer": "B. Avocado"
+},
+{
+"question": "What spice is typically used in curry for its yellow color?",
+"options": ["A. Saffron", "B. Paprika", "C. Turmeric", "D. Cumin"],
+"answer": "C. Turmeric"
+},
+{
+"question": "Which country is known for making feta cheese?",
+"options": ["A. France", "B. Italy", "C. Greece", "D. Spain"],
+"answer": "C. Greece"
+},
+{
+"question": "What type of pastry is used in a croissant?",
+"options": ["A. Filo", "B. Puff pastry", "C. Choux", "D. Shortcrust"],
+"answer": "B. Puff pastry"
+},
+{
+"question": "Which fast-food chain uses a clown as a mascot?",
+"options": ["A. Burger King", "B. KFC", "C. McDonald’s", "D. Taco Bell"],
+"answer": "C. McDonald’s"
+},
+{
+"question": "Which tree is known for shedding leaves annually?",
+"options": ["A. Coniferous", "B. Deciduous", "C. Evergreen", "D. Fir"],
+"answer": "B. Deciduous"
+},
+{
+"question": "What is the tallest species of tree?",
+"options": ["A. Oak", "B. Redwood", "C. Baobab", "D. Pine"],
+"answer": "B. Redwood"
+},
+{
+"question": "What gas do trees absorb from the atmosphere?",
+"options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen", "D. Methane"],
+"answer": "B. Carbon Dioxide"
+},
+{
+"question": "Which flower is known as the 'Queen of Flowers'?",
+"options": ["A. Rose", "B. Lily", "C. Tulip", "D. Orchid"],
+"answer": "A. Rose"
+},
+{
+"question": "What do bees collect from flowers?",
+"options": ["A. Sap", "B. Nectar", "C. Water", "D. Dust"],
+"answer": "B. Nectar"
+},
+{
+"question": "What is the closest planet to the Sun?",
+"options": ["A. Earth", "B. Venus", "C. Mercury", "D. Mars"],
+"answer": "C. Mercury"
+},
+{
+"question": "What type of galaxy is the Milky Way?",
+"options": ["A. Elliptical", "B. Spiral", "C. Irregular", "D. Ring"],
+"answer": "B. Spiral"
+},
+{
+"question": "Which planet is known as the 'Red Planet'?",
+"options": ["A. Venus", "B. Jupiter", "C. Mars", "D. Saturn"],
+"answer": "C. Mars"
+},
+{
+"question": "What is a supernova?",
+"options": ["A. New planet", "B. Birth of a star", "C. Dying star explosion", "D. Solar flare"],
+"answer": "C. Dying star explosion"
+},
+{
+"question": "Which force keeps planets in orbit around the sun?",
+"options": ["A. Magnetism", "B. Friction", "C. Gravity", "D. Tension"],
+"answer": "C. Gravity"
+},
+{
+"question": "Which aquatic animal is the largest mammal?",
+"options": ["A. Orca", "B. Blue Whale", "C. Great White Shark", "D. Walrus"],
+"answer": "B. Blue Whale"
+},
+{
+"question": "What part of a fish helps it to breathe?",
+"options": ["A. Fins", "B. Gills", "C. Tail", "D. Lungs"],
+"answer": "B. Gills"
+},
+{
+"question": "What color is a clownfish?",
+"options": ["A. Blue and yellow", "B. Orange and white", "C. Red and black", "D. Green and silver"],
+"answer": "B. Orange and white"
+},
+{
+"question": "Which aquatic animal has eight arms?",
+"options": ["A. Squid", "B. Jellyfish", "C. Crab", "D. Octopus"],
+"answer": "D. Octopus"
+},
+{
+"question": "Which fish is known for its ability to inflate?",
+"options": ["A. Pufferfish", "B. Tuna", "C. Swordfish", "D. Anglerfish"],
+"answer": "A. Pufferfish"
+},
+{
+"question": "Which board game involves buying properties and using 'Chance' cards?",
+"options": ["A. Ludo", "B. Monopoly", "C. Scrabble", "D. Chess"],
+"answer": "B. Monopoly"
+},
+{
+"question": "How many tiles does each player start with in Scrabble?",
+"options": ["A. 5", "B. 7", "C. 6", "D. 8"],
+"answer": "B. 7"
+},
+{
+"question": "Which card game involves yelling 'UNO' when you have one card left?",
+"options": ["A. Go Fish", "B. Solitaire", "C. UNO", "D. Poker"],
+"answer": "C. UNO"
+},
+{
+"question": "What is the price of a 2L Coca-Cola bottle at Woolworths (May 2025)?",
+"options": ["A. $2.50", "B. $2.00", "C. $1.80", "D. $2.20"],
+"answer": "B. $2.00"
+},
+{
+"question": "What is the current price of a loaf of Wonder White bread (700g)?",
+"options": ["A. $2.80", "B. $3.20", "C. $3.00", "D. $2.50"],
+"answer": "C. $3.00"
+},
+{
+"question": "How many minutes of moderate-intensity exercise is recommended per week for adults?",
+"options": ["A. 75 minutes", "B. 100 minutes", "C. 150 minutes", "D. 200 minutes"],
+"answer": "C. 150 minutes"
+},
+{
+"question": "Which type of exercise improves cardiovascular health?",
+"options": ["A. Yoga", "B. Weight lifting", "C. Cardio", "D. Stretching"],
+"answer": "C. Cardio"
+},
+{
+"question": "Which vitamin is primarily obtained from sunlight?",
+"options": ["A. Vitamin A", "B. Vitamin B12", "C. Vitamin C", "D. Vitamin D"],
+"answer": "D. Vitamin D"
+},
+{
+"question": "What is the best way to stay hydrated during intense physical activity?",
+"options": ["A. Soft drinks", "B. Coffee", "C. Water", "D. Juice"],
+"answer": "C. Water"
+},
+{
+"question": "What does BMI stand for in health measurement?",
+"options": ["A. Body Mass Index", "B. Basal Metabolism Indicator", "C. Blood Management Intake", "D. Body Measurement Insight"],
+"answer": "A. Body Mass Index"
+},
+{
+"question": "Which nutrient is essential for repairing tissues and building muscles?",
+"options": ["A. Carbohydrates", "B. Fats", "C. Protein", "D. Fiber"],
+"answer": "C. Protein"
+},
+{
+"question": "Which activity is considered a form of resistance training?",
+"options": ["A. Jogging", "B. Push-ups", "C. Swimming", "D. Walking"],
+"answer": "B. Push-ups"
+},
+{
+"question": "How much sleep is recommended for most adults per night?",
+"options": ["A. 4–5 hours", "B. 5–6 hours", "C. 7–9 hours", "D. 10–12 hours"],
+"answer": "C. 7–9 hours"
+},
+{
+"question": "What is the most common symptom of dehydration?",
+"options": ["A. Nausea", "B. Headache", "C. Hunger", "D. Sweating"],
+"answer": "B. Headache"
+},
+{
+"question": "Which mental health disorder is most commonly diagnosed worldwide?",
+"options": ["A. Bipolar disorder", "B. Schizophrenia", "C. Depression", "D. PTSD"],
+"answer": "C. Depression"
+},
+{
+"question": "What is one of the first signs of diabetes?",
+"options": ["A. Skin rash", "B. Blurred vision", "C. Increased thirst", "D. Shortness of breath"],
+"answer": "C. Increased thirst"
+},
+{
+"question": "What food is a rich source of Omega-3 fatty acids?",
+"options": ["A. Chicken", "B. Bread", "C. Salmon", "D. Apple"],
+"answer": "C. Salmon"
+},
+{
+"question": "How often should you brush your teeth daily?",
+"options": ["A. Once", "B. Twice", "C. Three times", "D. Every time you eat"],
+"answer": "B. Twice"
+},
+{
+"question": "Which of these habits helps prevent heart disease?",
+"options": ["A. Smoking", "B. Junk food", "C. Regular exercise", "D. Alcohol"],
+"answer": "C. Regular exercise"
+},
+{
+"question": "What is a healthy blood pressure level for adults?",
+"options": ["A. 140/90 mmHg", "B. 120/80 mmHg", "C. 130/100 mmHg", "D. 110/70 mmHg"],
+"answer": "B. 120/80 mmHg"
+}
+]
+
+
+
+

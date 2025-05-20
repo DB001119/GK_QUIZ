@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1E"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Question Counter -->
+        <TextView
+            android:id="@+id/tvQuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1 of 20"
+            android:textSize="16sp"
+            android:textColor="#9B9B9B"
+            android:fontFamily="@font/jetbrains_mono"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/jetbrains_mono"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Answer Buttons -->
+        <Button
+            android:id="@+id/btnOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:fontFamily="@font/jetbrains_mono"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#7DF9FF"
+            android:textColor="#1C1C1E" />
+
+        <Button
+            android:id="@+id/btnOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:fontFamily="@font/jetbrains_mono"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#7DF9FF"
+            android:textColor="#1C1C1E" />
+
+        <Button
+            android:id="@+id/btnOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:fontFamily="@font/jetbrains_mono"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#7DF9FF"
+            android:textColor="#1C1C1E" />
+
+        <Button
+            android:id="@+id/btnOption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:fontFamily="@font/jetbrains_mono"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#7DF9FF"
+            android:textColor="#1C1C1E" />
+
+    </LinearLayout>
+</ScrollView>
