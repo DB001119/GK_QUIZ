@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,6 +23,8 @@ public class ScoreHistoryActivity extends AppCompatActivity {
         TextView tvScoreList = findViewById(R.id.tvScoreList);
         Button btnRetryQuiz = findViewById(R.id.btnRetryQuiz);
         Button btnBackToMenu = findViewById(R.id.btnBackToMenu);
+        Button btnClearHistory = findViewById(R.id.btnClearHistory);
+
 
         SharedPreferences prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
         String scoresRaw = prefs.getString(SCORES_KEY, "");
@@ -51,5 +54,12 @@ public class ScoreHistoryActivity extends AppCompatActivity {
             startActivity(new Intent(this, MainActivity.class));
             finish();
         });
+        btnClearHistory.setOnClickListener(v -> {
+            SharedPreferences prefs1 = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
+            prefs1.edit().remove("recent_scores").apply(); // Remove the scores
+            tvScoreList.setText("No scores recorded yet."); // Update the UI
+            Toast.makeText(this, "Score history cleared!", Toast.LENGTH_SHORT).show(); // Notify the user
+        });
+
     }
 }

@@ -58,4 +58,17 @@
         android:textStyle="bold"
         android:textSize="20dp"
         android:fontFamily="@font/jetbrains_mono"/>
+
+    <Button
+        android:id="@+id/btnClearHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear History"
+        android:textColor="#1C1C1E"
+        android:fontFamily="@font/jetbrains_mono"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginTop="12dp" />
+
 </LinearLayout>
