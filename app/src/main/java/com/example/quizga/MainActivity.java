@@ -1,8 +1,11 @@
 package com.example.quizga;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
@@ -17,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnStartQuiz = findViewById(R.id.btnStartQuiz);
+        TextView tvHighScore = findViewById(R.id.tvHighScore); // ✅ now it's legal here
 
         btnStartQuiz.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, QuizActivity.class);
@@ -34,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
             recreate(); // refresh activity
         });
 
+        // Load high score
+        SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
+        int highScore = prefs.getInt("high_score", 0);
+        tvHighScore.setText("🏆 High Score: " + highScore + "/20");
     }
-
 }

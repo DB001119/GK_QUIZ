@@ -5,16 +5,21 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 public class ResultActivity extends AppCompatActivity {
 
+    private boolean scoreSaved = false;
     private TextView textViewScore;
     private Button buttonRetry, buttonViewScores;
 
@@ -30,49 +35,58 @@ public class ResultActivity extends AppCompatActivity {
 
         int score = getIntent().getIntExtra("score", 0);
         textViewScore.setText("Your Score: " + score + "/20");
-        saveScore(score); // <-- Important!
+
+        if (!scoreSaved) {
+            saveScore(score);
+            updateHighScore(score);
+            scoreSaved = true;
+        }
+
+        buttonRetry.setOnClickListener(view -> {
+            startActivity(new Intent(ResultActivity.this, QuizActivity.class));
+            finish();
+        });
 
         buttonViewScores.setOnClickListener(view -> {
             try {
-                Intent intent = new Intent(ResultActivity.this, ScoreHistoryActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(ResultActivity.this, ScoreHistoryActivity.class));
             } catch (Exception e) {
                 e.printStackTrace();
                 Toast.makeText(this, "Failed to load score history", Toast.LENGTH_SHORT).show();
             }
         });
-
-
-        buttonRetry.setOnClickListener(view -> {
-            Intent intent = new Intent(ResultActivity.this, QuizActivity.class);
-            startActivity(intent);
-        });
-        buttonViewScores.setOnClickListener(view -> {
-            Intent intent = new Intent(ResultActivity.this, ScoreHistoryActivity.class);
-            startActivity(intent);
-        });
     }
+
     private void saveScore(int score) {
         SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
         String existing = prefs.getString("recent_scores", "");
-
         List<String> scoreList = new ArrayList<>(Arrays.asList(existing.split(";")));
+
+        // Remove empty entries
         scoreList.removeIf(String::isEmpty);
 
         // Generate timestamp
-        String time = new java.text.SimpleDateFormat("dd MMM yyyy – h:mm a", java.util.Locale.getDefault()).format(new java.util.Date());
+        String timestamp = new SimpleDateFormat("dd MMM yyyy – h:mm a", Locale.getDefault()).format(new Date());
 
         // Format: score|timestamp
-        String entry = score + "|" + time;
-        scoreList.add(0, entry);  // Add latest to top
+        String entry = score + "|" + timestamp;
+        scoreList.add(0, entry); // Newest at top
 
+        // Keep only last 10
         if (scoreList.size() > 10) {
-            scoreList = scoreList.subList(0, 10);  // Keep only 10
+            scoreList = scoreList.subList(0, 10);
         }
 
         String updatedScores = TextUtils.join(";", scoreList);
         prefs.edit().putString("recent_scores", updatedScores).apply();
     }
 
+    private void updateHighScore(int currentScore) {
+        SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
+        int highScore = prefs.getInt("high_score", 0);
 
+        if (currentScore > highScore) {
+            prefs.edit().putInt("high_score", currentScore).apply();
+        }
+    }
 }
