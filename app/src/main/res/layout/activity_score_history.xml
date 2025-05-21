@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp"
-    android:background="#1C1C1E">
+    android:background="@color/background">
 
     <TextView
         android:id="@+id/tvScoreTitle"
@@ -15,7 +15,7 @@
         android:layout_marginBottom="24dp"
         android:layout_marginTop="40dp"
         android:text="Last 10 Quiz Scores"
-        android:textColor="#fff"
+        android:textColor="@color/textPrimary"
         android:textSize="24sp"
         android:textStyle="bold"
         android:fontFamily="@font/jetbrains_mono"/>
@@ -24,14 +24,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#1C1C1E">
+        android:background="@color/background">
 
         <TextView
             android:id="@+id/tvScoreList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:textColor="#fff"
+            android:textColor="@color/textPrimary"
             android:fontFamily="@font/jetbrains_mono"/>
     </ScrollView>
 
@@ -40,8 +40,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Retry Quiz"
-        android:textColor="#1C1C1E"
-        android:backgroundTint="#7DF9FF"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/buttonBackground"
         android:layout_marginTop="24dp"
         android:textStyle="bold"
         android:textSize="20dp"
@@ -52,12 +52,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Back to Start"
-        android:textColor="#1C1C1E"
-        android:backgroundTint="#7DF9FF"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/buttonBackground"
         android:layout_marginTop="12dp"
         android:textStyle="bold"
         android:textSize="20dp"
         android:fontFamily="@font/jetbrains_mono"/>
+
+    <Button
+        android:id="@+id/btnGraphView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Graph View"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/buttonBackground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono" />
 
     <Button
         android:id="@+id/btnClearHistory"
@@ -70,5 +82,7 @@
         android:textStyle="bold"
         android:backgroundTint="#D32F2F"
         android:layout_marginTop="12dp" />
+
+
 
 </LinearLayout>

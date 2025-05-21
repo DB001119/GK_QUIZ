@@ -19,12 +19,14 @@ public class ScoreHistoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ThemeHelper.applyTheme(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score_history);
 
         TextView tvScoreList = findViewById(R.id.tvScoreList);
         Button btnRetryQuiz = findViewById(R.id.btnRetryQuiz);
         Button btnBackToMenu = findViewById(R.id.btnBackToMenu);
+        Button btnGraphView = findViewById(R.id.btnGraphView);
         Button btnClearHistory = findViewById(R.id.btnClearHistory);
 
         SharedPreferences prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
@@ -41,7 +43,7 @@ public class ScoreHistoryActivity extends AppCompatActivity {
                 String score = parts[0];
                 String time = parts.length > 1 ? parts[1] : "Unknown time";
 
-                String line1 = "🏆 Game " + (entries.length - i) + ": " + score + "/20\n";
+                String line1 = "🏆 Quiz " + (entries.length - i) + ": " + score + "/20\n";
                 String line2 = "📅 Played on: " + time + "\n\n";
 
                 styledDisplay.append(line1);  // Normal size score line
@@ -64,10 +66,14 @@ public class ScoreHistoryActivity extends AppCompatActivity {
             finish();
         });
 
+        btnGraphView.setOnClickListener(v -> {
+            startActivity(new Intent(this, GraphActivity.class));
+        });
+
         btnClearHistory.setOnClickListener(v -> {
             SharedPreferences prefs1 = getSharedPreferences(PREFS, MODE_PRIVATE);
             prefs1.edit().remove(SCORES_KEY).apply();
-            tvScoreList.setText("No scores recorded yet.");
+            tvScoreList.setText("Scores Cleared!!");
             Toast.makeText(this, "Score history cleared!", Toast.LENGTH_SHORT).show();
         });
     }
