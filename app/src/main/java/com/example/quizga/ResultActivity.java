@@ -42,6 +42,10 @@ public class ResultActivity extends AppCompatActivity {
         });
 
 
+        buttonRetry.setOnClickListener(view -> {
+            Intent intent = new Intent(ResultActivity.this, QuizActivity.class);
+            startActivity(intent);
+        });
         buttonViewScores.setOnClickListener(view -> {
             Intent intent = new Intent(ResultActivity.this, ScoreHistoryActivity.class);
             startActivity(intent);
@@ -51,22 +55,23 @@ public class ResultActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
         String existing = prefs.getString("recent_scores", "");
 
-        List<String> scoreList = new ArrayList<>(Arrays.asList(existing.split(",")));
-
-        // Remove any empty values
+        List<String> scoreList = new ArrayList<>(Arrays.asList(existing.split(";")));
         scoreList.removeIf(String::isEmpty);
 
-        // Add latest score to top
-        scoreList.add(0, String.valueOf(score));
+        // Generate timestamp
+        String time = new java.text.SimpleDateFormat("dd MMM yyyy – h:mm a", java.util.Locale.getDefault()).format(new java.util.Date());
 
-        // Limit to last 10 scores only
+        // Format: score|timestamp
+        String entry = score + "|" + time;
+        scoreList.add(0, entry);  // Add latest to top
+
         if (scoreList.size() > 10) {
-            scoreList = scoreList.subList(0, 10);
+            scoreList = scoreList.subList(0, 10);  // Keep only 10
         }
 
-        String updatedScores = TextUtils.join(",", scoreList); // <- fix here
-
+        String updatedScores = TextUtils.join(";", scoreList);
         prefs.edit().putString("recent_scores", updatedScores).apply();
     }
+
 
 }
