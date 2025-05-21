@@ -1,16 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.QuizMaster" parent="Theme.Material3.DayNight.NoActionBar">
-
-        <!-- Global font for headings & body -->
-        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.QuizMaster.Headline</item>
-        <item name="textAppearanceBodyMedium">@style/TextAppearance.QuizMaster.Body</item>
-
-        <!-- Colors -->
-        <item name="colorPrimary">@color/neonMint</item>
-        <item name="colorOnPrimary">@color/bgDark</item>
-        <item name="android:colorBackground">@color/bgDark</item>
-        <item name="colorSurface">@color/surfaceDark</item>
-        <item name="colorOnSurface">@color/textWhite</item>
-        <item name="colorSecondary">@color/textSecondary</item>
+    <!-- Light Theme -->
+    <style name="AppTheme.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:textColor">#000000</item>
     </style>
+
+    <!-- Dark Theme -->
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#121212</item>
+        <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#1C1C1E</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
 </resources>
