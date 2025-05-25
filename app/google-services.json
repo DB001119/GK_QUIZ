@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959896426186",
+    "project_id": "gk-quiz-app-fedde",
+    "storage_bucket": "gk-quiz-app-fedde.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959896426186:android:4909589c59646a33ce8633",
+        "android_client_info": {
+          "package_name": "com.example.quizga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdXqk74hDm_yym0al44MXQLvMBHQ4JBk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

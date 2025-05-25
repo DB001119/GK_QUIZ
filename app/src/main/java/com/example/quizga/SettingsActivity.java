@@ -14,6 +14,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class SettingsActivity extends AppCompatActivity {
 
     private RadioGroup themeGroup;
@@ -87,10 +89,20 @@ public class SettingsActivity extends AppCompatActivity {
         });
 
         btnLogout.setOnClickListener(v -> {
+            // Clear local preferences
+            SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
             prefs.edit().clear().apply();
-            startActivity(new Intent(SettingsActivity.this, LoginActivity.class));
+
+            // Sign out from Firebase
+            FirebaseAuth.getInstance().signOut();
+
+            // Navigate to login screen
+            Intent intent = new Intent(SettingsActivity.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK); // 👈 Prevent going back
+            startActivity(intent);
             finish();
         });
+
 
         btnBack.setOnClickListener(v -> finish());
     }

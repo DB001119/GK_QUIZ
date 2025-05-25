@@ -3,10 +3,15 @@ package com.example.quizga;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,12 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d("MainCheck", "MainActivity launched");
+        Toast.makeText(this, "MainActivity Opened", Toast.LENGTH_SHORT).show();
+
         ThemeHelper.applyTheme(this); // Apply current theme
         super.onCreate(savedInstanceState);
 
         // 🔐 Check login
         SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
-        if (!prefs.getBoolean("isLoggedIn", false)) {
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user == null) {
             startActivity(new Intent(this, LoginActivity.class));
             finish();
             return;

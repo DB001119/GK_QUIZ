@@ -46,8 +46,21 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
         android:text="Login"
+        android:textStyle="bold"
         android:backgroundTint="@color/buttonBackground"
         android:textColor="@color/buttonText"
         android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnToRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User? Register Here"
+        android:backgroundTint="@color/buttonBackground"
+        android:textColor="@color/buttonText"
+        android:fontFamily="@font/jetbrains_mono"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp" />
+
 
 </LinearLayout>
