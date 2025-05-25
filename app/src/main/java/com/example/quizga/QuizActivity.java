@@ -1,16 +1,22 @@
 package com.example.quizga;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
-import java.util.Collections;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class QuizActivity extends AppCompatActivity {
 
@@ -35,11 +41,16 @@ public class QuizActivity extends AppCompatActivity {
         btnOption3 = findViewById(R.id.btnOption3);
         btnOption4 = findViewById(R.id.btnOption4);
 
-        // Add sample questions
+        FontHelper.applyFontSize(this, tvQuestion);
+        FontHelper.applyFontSize(this, tvQuestionNumber);
+        FontHelper.applyFontSize(this, btnOption1);
+        FontHelper.applyFontSize(this, btnOption2);
+        FontHelper.applyFontSize(this, btnOption3);
+        FontHelper.applyFontSize(this, btnOption4);
+
         loadQuestionsFromJson();
         setQuestion();
 
-        // Handle option clicks
         btnOption1.setOnClickListener(view -> handleAnswer(btnOption1.getText().toString()));
         btnOption2.setOnClickListener(view -> handleAnswer(btnOption2.getText().toString()));
         btnOption3.setOnClickListener(view -> handleAnswer(btnOption3.getText().toString()));
@@ -70,17 +81,16 @@ public class QuizActivity extends AppCompatActivity {
                 allQuestions.add(new Question(questionText, options, answer));
             }
 
-            // Shuffle and take any 20 randomly
+            // Shuffle and pick 20
             Collections.shuffle(allQuestions);
             questionList.clear();
             questionList.addAll(allQuestions.subList(0, Math.min(20, allQuestions.size())));
 
         } catch (Exception e) {
             e.printStackTrace();
+            Toast.makeText(this, "Failed to load questions", Toast.LENGTH_SHORT).show();
         }
     }
-
-
 
     private void setQuestion() {
         if (currentIndex < questionList.size()) {
@@ -117,7 +127,7 @@ public class QuizActivity extends AppCompatActivity {
         finish();
     }
 
-    // Inner class for question model
+    // Model class for questions
     public static class Question {
         private final String question;
         private final String[] options;
@@ -129,8 +139,16 @@ public class QuizActivity extends AppCompatActivity {
             this.answer = answer;
         }
 
-        public String getQuestion() { return question; }
-        public String[] getOptions() { return options; }
-        public String getAnswer() { return answer; }
+        public String getQuestion() {
+            return question;
+        }
+
+        public String[] getOptions() {
+            return options;
+        }
+
+        public String getAnswer() {
+            return answer;
+        }
     }
 }

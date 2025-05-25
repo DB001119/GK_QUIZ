@@ -23,12 +23,23 @@ public class ScoreHistoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score_history);
 
+        TextView tvScoreTitle = findViewById(R.id.tvScoreTitle);
         TextView tvScoreList = findViewById(R.id.tvScoreList);
         Button btnRetryQuiz = findViewById(R.id.btnRetryQuiz);
         Button btnBackToMenu = findViewById(R.id.btnBackToMenu);
         Button btnGraphView = findViewById(R.id.btnGraphView);
         Button btnClearHistory = findViewById(R.id.btnClearHistory);
 
+        // Optional: Apply global font size scaling
+        FontHelper.applyFontSize(this, tvScoreTitle);
+        FontHelper.applyFontSize(this, tvScoreList);
+        FontHelper.applyFontSize(this, btnRetryQuiz);
+        FontHelper.applyFontSize(this, btnBackToMenu);
+        FontHelper.applyFontSize(this, btnGraphView);
+        FontHelper.applyFontSize(this, btnClearHistory);
+
+
+        // Load scores
         SharedPreferences prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
         String scoresRaw = prefs.getString(SCORES_KEY, "");
 
@@ -46,10 +57,9 @@ public class ScoreHistoryActivity extends AppCompatActivity {
                 String line1 = "🏆 Quiz " + (entries.length - i) + ": " + score + "/20\n";
                 String line2 = "📅 Played on: " + time + "\n\n";
 
-                styledDisplay.append(line1);  // Normal size score line
-
+                styledDisplay.append(line1);
                 SpannableString timestampSpan = new SpannableString(line2);
-                timestampSpan.setSpan(new RelativeSizeSpan(0.60f), 0, line2.length(), 0); // Small timestamp
+                timestampSpan.setSpan(new RelativeSizeSpan(0.60f), 0, line2.length(), 0);
                 styledDisplay.append(timestampSpan);
             }
 
@@ -71,8 +81,7 @@ public class ScoreHistoryActivity extends AppCompatActivity {
         });
 
         btnClearHistory.setOnClickListener(v -> {
-            SharedPreferences prefs1 = getSharedPreferences(PREFS, MODE_PRIVATE);
-            prefs1.edit().remove(SCORES_KEY).apply();
+            prefs.edit().remove(SCORES_KEY).apply();
             tvScoreList.setText("Scores Cleared!!");
             Toast.makeText(this, "Score history cleared!", Toast.LENGTH_SHORT).show();
         });

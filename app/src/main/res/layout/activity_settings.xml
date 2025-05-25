@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <!-- Theme Selection -->
+    <RadioGroup
+        android:id="@+id/themeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Theme"
+            android:textColor="@color/textPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Theme"
+            android:textColor="@color/textPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioSystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="System Default"
+            android:textColor="@color/textPrimary" />
+    </RadioGroup>
+
+    <!-- Text Size Preview -->
+    <TextView
+        android:id="@+id/textSizePreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preview Text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/jetbrains_mono"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/textPrimary" />
+
+    <!-- Text Size SeekBar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal">
+
+        <SeekBar
+            android:id="@+id/seekBarTextSize"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:max="3"
+            android:progress="1" />
+
+        <TextView
+            android:id="@+id/textSizeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current: M"
+            android:textStyle="bold"
+            android:fontFamily="@font/jetbrains_mono"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/buttonBackground"
+        android:text="Logout"
+        android:textColor="@color/buttonText"
+        android:fontFamily="@font/jetbrains_mono"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/buttonBackground"
+        android:text="Back"
+        android:textColor="@color/buttonText"
+        android:fontFamily="@font/jetbrains_mono"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</LinearLayout>

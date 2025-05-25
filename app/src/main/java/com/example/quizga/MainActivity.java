@@ -7,40 +7,54 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnStartQuiz;
+    private Button btnStartQuiz, btnSettings;
+    private TextView tvHighScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ThemeHelper.applyTheme(this);
+        ThemeHelper.applyTheme(this); // Apply current theme
         super.onCreate(savedInstanceState);
+
+        // 🔐 Check login
+        SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
+        if (!prefs.getBoolean("isLoggedIn", false)) {
+            startActivity(new Intent(this, LoginActivity.class));
+            finish();
+            return;
+        }
+
         setContentView(R.layout.activity_main);
 
+        // 🎯 Bind Views
         btnStartQuiz = findViewById(R.id.btnStartQuiz);
-        TextView tvHighScore = findViewById(R.id.tvHighScore); // ✅ now it's legal here
+        btnSettings = findViewById(R.id.btnSettings);
+        tvHighScore = findViewById(R.id.tvHighScore);
 
-        btnStartQuiz.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, QuizActivity.class);
-            startActivity(intent);
-        });
-
-        Button toggleTheme = findViewById(R.id.btnToggleTheme);
-        toggleTheme.setOnClickListener(v -> {
-            int current = AppCompatDelegate.getDefaultNightMode();
-            if (current == AppCompatDelegate.MODE_NIGHT_YES) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-            } else {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-            }
-            recreate(); // refresh activity
-        });
-
-        // Load high score
-        SharedPreferences prefs = getSharedPreferences("quiz_prefs", MODE_PRIVATE);
+        // 📈 Show High Score
         int highScore = prefs.getInt("high_score", 0);
         tvHighScore.setText("🏆 High Score: " + highScore + "/20");
+
+        // 🎮 Start Quiz
+        btnStartQuiz.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, QuizActivity.class));
+        });
+
+        // ⚙️ Open Settings
+        btnSettings.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+        });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        // 🔠 Reapply font sizes when returning from SettingsActivity
+        FontHelper.applyFontSize(this, tvHighScore);
+        FontHelper.applyFontSize(this, btnStartQuiz);
+        FontHelper.applyFontSize(this, btnSettings);
     }
 }
