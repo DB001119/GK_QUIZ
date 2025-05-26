@@ -1,0 +1,197 @@
+[
+  {
+    "question": "What is the longest river in the world?",
+    "options": ["Amazon", "Yangtze", "Nile", "Mississippi"],
+    "answer": "Nile"
+  },
+  {
+    "question": "Which is the largest desert in the world?",
+    "options": ["Gobi", "Kalahari", "Antarctic Desert", "Sahara"],
+    "answer": "Antarctic Desert"
+  },
+  {
+    "question": "Which continent has the most countries?",
+    "options": ["Asia", "Europe", "Africa", "South America"],
+    "answer": "Africa"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa"
+  },
+  {
+    "question": "Mount Everest lies in which mountain range?",
+    "options": ["Andes", "Rockies", "Alps", "Himalayas"],
+    "answer": "Himalayas"
+  },
+  {
+    "question": "Which is the smallest country in the world by area?",
+    "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+    "answer": "Vatican City"
+  },
+  {
+    "question": "Which country has the most time zones?",
+    "options": ["Russia", "USA", "France", "China"],
+    "answer": "France"
+  },
+  {
+    "question": "Which U.S. state has the longest coastline?",
+    "options": ["California", "Alaska", "Florida", "Hawaii"],
+    "answer": "Alaska"
+  },
+  {
+    "question": "What is the capital of Brazil?",
+    "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+    "answer": "Brasília"
+  },
+  {
+    "question": "Which ocean is the deepest?",
+    "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+    "answer": "Pacific"
+  },
+  {
+    "question": "Which African country is completely surrounded by South Africa?",
+    "options": ["Lesotho", "Swaziland", "Namibia", "Botswana"],
+    "answer": "Lesotho"
+  },
+  {
+    "question": "The Great Barrier Reef is located off the coast of which country?",
+    "options": ["India", "Australia", "USA", "South Africa"],
+    "answer": "Australia"
+  },
+  {
+    "question": "Which two continents are located entirely in the Southern Hemisphere?",
+    "options": ["Australia and Antarctica", "South America and Africa", "Asia and Australia", "Europe and South America"],
+    "answer": "Australia and Antarctica"
+  },
+  {
+    "question": "Which country is known as the Land of a Thousand Lakes?",
+    "options": ["Sweden", "Canada", "Finland", "Norway"],
+    "answer": "Finland"
+  },
+  {
+    "question": "What is the capital of Egypt?",
+    "options": ["Cairo", "Alexandria", "Giza", "Luxor"],
+    "answer": "Cairo"
+  },
+  {
+    "question": "Which river flows through Paris?",
+    "options": ["Seine", "Danube", "Rhine", "Loire"],
+    "answer": "Seine"
+  },
+  {
+    "question": "Which country has the largest population in the world?",
+    "options": ["India", "China", "USA", "Indonesia"],
+    "answer": "India"
+  },
+  {
+    "question": "Which country shares borders with the most other countries?",
+    "options": ["Russia", "Germany", "Brazil", "China"],
+    "answer": "China"
+  },
+  {
+    "question": "Which is the tallest mountain in North America?",
+    "options": ["Mount Logan", "Mount Rainier", "Denali", "Pico de Orizaba"],
+    "answer": "Denali"
+  },
+  {
+    "question": "Which sea separates Europe and Africa?",
+    "options": ["Red Sea", "Black Sea", "Mediterranean Sea", "Caspian Sea"],
+    "answer": "Mediterranean Sea"
+  },
+  {
+    "question": "What is the capital of New Zealand?",
+    "options": ["Wellington", "Auckland", "Christchurch", "Hamilton"],
+    "answer": "Wellington"
+  },
+  {
+    "question": "Which continent is the driest?",
+    "options": ["Africa", "Asia", "Antarctica", "Australia"],
+    "answer": "Antarctica"
+  },
+  {
+    "question": "Which river flows through Baghdad?",
+    "options": ["Tigris", "Euphrates", "Jordan", "Nile"],
+    "answer": "Tigris"
+  },
+  {
+    "question": "Which country has the highest number of islands?",
+    "options": ["Indonesia", "Philippines", "Sweden", "Norway"],
+    "answer": "Sweden"
+  },
+  {
+    "question": "What is the capital of South Korea?",
+    "options": ["Busan", "Incheon", "Seoul", "Daegu"],
+    "answer": "Seoul"
+  },
+  {
+    "question": "Which country lies on both the European and Asian continents?",
+    "options": ["Greece", "Turkey", "Georgia", "Kazakhstan"],
+    "answer": "Turkey"
+  },
+  {
+    "question": "Which US city is known as 'The Windy City'?",
+    "options": ["New York", "Chicago", "Los Angeles", "Boston"],
+    "answer": "Chicago"
+  },
+  {
+    "question": "What is the largest island in the world?",
+    "options": ["Greenland", "New Guinea", "Borneo", "Madagascar"],
+    "answer": "Greenland"
+  },
+  {
+    "question": "Which is the largest country in South America by area?",
+    "options": ["Argentina", "Peru", "Brazil", "Colombia"],
+    "answer": "Brazil"
+  },
+  {
+    "question": "Which European country has the most volcanoes?",
+    "options": ["Italy", "Iceland", "Greece", "Portugal"],
+    "answer": "Iceland"
+  },
+  {
+    "question": "Which two countries share the longest international border?",
+    "options": ["Russia–China", "USA–Mexico", "USA–Canada", "India–Bangladesh"],
+    "answer": "USA–Canada"
+  },
+  {
+    "question": "What is the capital of Thailand?",
+    "options": ["Chiang Mai", "Bangkok", "Phuket", "Pattaya"],
+    "answer": "Bangkok"
+  },
+  {
+    "question": "Which river forms part of the border between the USA and Mexico?",
+    "options": ["Mississippi", "Colorado", "Rio Grande", "Columbia"],
+    "answer": "Rio Grande"
+  },
+  {
+    "question": "Which ocean is Bermuda located in?",
+    "options": ["Indian", "Arctic", "Atlantic", "Pacific"],
+    "answer": "Atlantic"
+  },
+  {
+    "question": "Which capital city is located on two continents?",
+    "options": ["Cairo", "Moscow", "Ankara", "Istanbul"],
+    "answer": "Istanbul"
+  },
+  {
+    "question": "What is the flattest continent?",
+    "options": ["Africa", "Europe", "Australia", "South America"],
+    "answer": "Australia"
+  },
+  {
+    "question": "Which country has the most natural lakes?",
+    "options": ["Canada", "Russia", "USA", "Finland"],
+    "answer": "Canada"
+  },
+  {
+    "question": "Which island country is located southeast of India?",
+    "options": ["Indonesia", "Sri Lanka", "Maldives", "Mauritius"],
+    "answer": "Sri Lanka"
+  },
+  {
+    "question": "What is the capital of Nigeria?",
+    "options": ["Lagos", "Abuja", "Kano", "Ibadan"],
+    "answer": "Abuja"
+  }
+]

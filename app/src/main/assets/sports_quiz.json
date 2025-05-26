@@ -1,0 +1,204 @@
+[
+  {
+    "question": "How many players are there in a soccer team on the field?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11"
+  },
+  {
+    "question": "In which sport is the term 'love' used?",
+    "options": ["Tennis", "Badminton", "Cricket", "Football"],
+    "answer": "Tennis"
+  },
+  {
+    "question": "Which country won the FIFA World Cup in 2022?",
+    "options": ["Argentina", "France", "Brazil", "Germany"],
+    "answer": "Argentina"
+  },
+  {
+    "question": "Who holds the record for the most Olympic gold medals?",
+    "options": ["Usain Bolt", "Michael Phelps", "Mark Spitz", "Carl Lewis"],
+    "answer": "Michael Phelps"
+  },
+  {
+    "question": "How many rings are there on the Olympic flag?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "question": "Which sport uses a shuttlecock?",
+    "options": ["Tennis", "Squash", "Badminton", "Table Tennis"],
+    "answer": "Badminton"
+  },
+  {
+    "question": "Who is known as the 'King of Clay' in tennis?",
+    "options": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
+    "answer": "Rafael Nadal"
+  },
+  {
+    "question": "How long is a marathon race?",
+    "options": ["26.2 miles", "20 miles", "30 miles", "10 miles"],
+    "answer": "26.2 miles"
+  },
+  {
+    "question": "Which country has won the most Cricket World Cups?",
+    "options": ["India", "Australia", "England", "West Indies"],
+    "answer": "Australia"
+  },
+  {
+    "question": "What is the maximum score in a single throw in darts?",
+    "options": ["20", "50", "60", "100"],
+    "answer": "60"
+  },
+  {
+    "question": "Which basketball player is known as 'King James'?",
+    "options": ["Stephen Curry", "Michael Jordan", "LeBron James", "Kevin Durant"],
+    "answer": "LeBron James"
+  },
+  {
+    "question": "In which sport is the term 'bogey' used?",
+    "options": ["Baseball", "Golf", "Tennis", "Hockey"],
+    "answer": "Golf"
+  },
+  {
+    "question": "Which country invented table tennis?",
+    "options": ["China", "India", "England", "Japan"],
+    "answer": "England"
+  },
+  {
+    "question": "What is the national sport of Japan?",
+    "options": ["Karate", "Sumo Wrestling", "Judo", "Baseball"],
+    "answer": "Sumo Wrestling"
+  },
+  {
+    "question": "How many minutes is a rugby union match?",
+    "options": ["60", "70", "80", "90"],
+    "answer": "80"
+  },
+  {
+    "question": "Who won the Ballon d'Or in 2023?",
+    "options": ["Erling Haaland", "Kylian Mbappe", "Lionel Messi", "Kevin De Bruyne"],
+    "answer": "Lionel Messi"
+  },
+  {
+    "question": "In which sport is the Ryder Cup contested?",
+    "options": ["Golf", "Tennis", "Rugby", "Cricket"],
+    "answer": "Golf"
+  },
+  {
+    "question": "What is the shape of a soccer ball?",
+    "options": ["Cube", "Oval", "Sphere", "Hexagon"],
+    "answer": "Sphere"
+  },
+  {
+    "question": "Who holds the record for the fastest 100m sprint?",
+    "options": ["Tyson Gay", "Usain Bolt", "Yohan Blake", "Justin Gatlin"],
+    "answer": "Usain Bolt"
+  },
+  {
+    "question": "Which country hosts the Tour de France?",
+    "options": ["Spain", "Italy", "France", "Switzerland"],
+    "answer": "France"
+  },
+
+  {
+    "question": "Which country won the first ever FIFA World Cup in 1930?",
+    "options": ["Brazil", "Uruguay", "Italy", "Argentina"],
+    "answer": "Uruguay"
+  },
+  {
+    "question": "In which city were the 2012 Summer Olympics held?",
+    "options": ["Beijing", "Rio de Janeiro", "London", "Athens"],
+    "answer": "London"
+  },
+  {
+    "question": "What does NBA stand for?",
+    "options": ["National Baseball Association", "National Basketball Association", "New Basketball Alliance", "National Boxing Association"],
+    "answer": "National Basketball Association"
+  },
+  {
+    "question": "Which cricketer is known as 'The Wall'?",
+    "options": ["Sachin Tendulkar", "Rahul Dravid", "MS Dhoni", "Virat Kohli"],
+    "answer": "Rahul Dravid"
+  },
+  {
+    "question": "How many Grand Slam tournaments are held in tennis each year?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "Which country has hosted the most Olympic Games?",
+    "options": ["USA", "France", "Japan", "Germany"],
+    "answer": "USA"
+  },
+  {
+    "question": "In which sport do teams compete for the Stanley Cup?",
+    "options": ["Baseball", "Ice Hockey", "Basketball", "Rugby"],
+    "answer": "Ice Hockey"
+  },
+  {
+    "question": "Which female tennis player has won the most Grand Slam singles titles?",
+    "options": ["Steffi Graf", "Serena Williams", "Margaret Court", "Martina Navratilova"],
+    "answer": "Margaret Court"
+  },
+  {
+    "question": "What sport is associated with the terms 'strike', 'spare', and 'turkey'?",
+    "options": ["Baseball", "Golf", "Bowling", "Darts"],
+    "answer": "Bowling"
+  },
+  {
+    "question": "Which athlete has won gold medals in both Summer and Winter Olympics?",
+    "options": ["Michael Phelps", "Usain Bolt", "Eddie Eagan", "Carl Lewis"],
+    "answer": "Eddie Eagan"
+  },
+  {
+    "question": "Which country hosted the 2022 ICC Men's T20 Cricket World Cup?",
+    "options": ["India", "Australia", "UAE", "England"],
+    "answer": "Australia"
+  },
+  {
+    "question": "In motorsport, what color flag indicates the end of a race?",
+    "options": ["Red", "Blue", "Green", "Checkered"],
+    "answer": "Checkered"
+  },
+  {
+    "question": "Who holds the record for the highest individual score in ODI cricket?",
+    "options": ["Rohit Sharma", "Martin Guptill", "Virender Sehwag", "Sachin Tendulkar"],
+    "answer": "Rohit Sharma"
+  },
+  {
+    "question": "What is the minimum number of points needed to win a set in volleyball?",
+    "options": ["21", "25", "15", "10"],
+    "answer": "25"
+  },
+  {
+    "question": "What sport uses the term 'albatross'?",
+    "options": ["Tennis", "Golf", "Horse Racing", "Swimming"],
+    "answer": "Golf"
+  },
+  {
+    "question": "Which country dominates medal counts in table tennis at the Olympics?",
+    "options": ["South Korea", "Germany", "Japan", "China"],
+    "answer": "China"
+  },
+  {
+    "question": "Who is the all-time leading scorer in the NBA (as of 2024)?",
+    "options": ["Kobe Bryant", "LeBron James", "Kareem Abdul-Jabbar", "Michael Jordan"],
+    "answer": "LeBron James"
+  },
+  {
+    "question": "In which sport do you use a pommel horse?",
+    "options": ["Equestrian", "Gymnastics", "Wrestling", "Martial Arts"],
+    "answer": "Gymnastics"
+  },
+  {
+    "question": "Which football club has won the most UEFA Champions League titles?",
+    "options": ["Barcelona", "Manchester United", "AC Milan", "Real Madrid"],
+    "answer": "Real Madrid"
+  },
+  {
+    "question": "What does the red card signify in football (soccer)?",
+    "options": ["Goal", "Warning", "Substitution", "Player is sent off"],
+    "answer": "Player is sent off"
+  }]
+
+

@@ -67,7 +67,7 @@ public class ScoreHistoryActivity extends AppCompatActivity {
         }
 
         btnRetryQuiz.setOnClickListener(v -> {
-            startActivity(new Intent(this, QuizActivity.class));
+            startActivity(new Intent(this, CategoryActivity.class));
             finish();
         });
 

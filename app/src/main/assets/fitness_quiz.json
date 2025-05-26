@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is the recommended amount of daily water intake for adults?",
+    "options": ["1 liter", "2 liters", "3 liters", "4 liters"],
+    "answer": "2 liters"
+  },
+  {
+    "question": "Which vitamin is primarily obtained from sunlight?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "Which nutrient is essential for muscle repair and growth?",
+    "options": ["Carbohydrates", "Proteins", "Fats", "Fiber"],
+    "answer": "Proteins"
+  },
+  {
+    "question": "Which organ is most affected by alcohol consumption?",
+    "options": ["Heart", "Kidneys", "Liver", "Lungs"],
+    "answer": "Liver"
+  },
+  {
+    "question": "What is considered a healthy body fat percentage range for men?",
+    "options": ["5–10%", "10–20%", "20–30%", "30–40%"],
+    "answer": "10–20%"
+  },
+  {
+    "question": "Which mineral is crucial for bone health?",
+    "options": ["Iron", "Zinc", "Calcium", "Magnesium"],
+    "answer": "Calcium"
+  },
+  {
+    "question": "What does BMI stand for?",
+    "options": ["Body Muscle Index", "Body Mass Index", "Balanced Metabolic Intake", "Bone Mass Indicator"],
+    "answer": "Body Mass Index"
+  },
+  {
+    "question": "What type of fat is considered 'bad' for health?",
+    "options": ["Saturated fat", "Unsaturated fat", "Trans fat", "Omega-3 fat"],
+    "answer": "Trans fat"
+  },
+  {
+    "question": "Which hormone is mainly responsible for the fight or flight response?",
+    "options": ["Serotonin", "Dopamine", "Adrenaline", "Melatonin"],
+    "answer": "Adrenaline"
+  },
+  {
+    "question": "How many hours of sleep are recommended for adults?",
+    "options": ["4–5", "5–6", "6–7", "7–9"],
+    "answer": "7–9"
+  },
+  {
+    "question": "Which type of exercise improves cardiovascular health?",
+    "options": ["Yoga", "Weightlifting", "Cardio", "Pilates"],
+    "answer": "Cardio"
+  },
+  {
+    "question": "Which macronutrient is the body's main source of energy?",
+    "options": ["Fats", "Proteins", "Vitamins", "Carbohydrates"],
+    "answer": "Carbohydrates"
+  },
+  {
+    "question": "Which mental health disorder is characterized by extreme mood swings?",
+    "options": ["Depression", "Bipolar disorder", "Anxiety", "OCD"],
+    "answer": "Bipolar disorder"
+  },
+  {
+    "question": "Which organ controls metabolism through hormone release?",
+    "options": ["Liver", "Thyroid", "Pancreas", "Adrenal glands"],
+    "answer": "Thyroid"
+  },
+  {
+    "question": "What is the name of the sleep hormone?",
+    "options": ["Melatonin", "Cortisol", "Insulin", "Serotonin"],
+    "answer": "Melatonin"
+  },
+  {
+    "question": "What does HIIT stand for in fitness?",
+    "options": ["High Impact Interval Training", "High Intensity Interval Training", "Heavy Intensity Integrated Training", "Health Improvement Interval Training"],
+    "answer": "High Intensity Interval Training"
+  },
+  {
+    "question": "Which food is richest in omega-3 fatty acids?",
+    "options": ["Olive oil", "Almonds", "Salmon", "Bananas"],
+    "answer": "Salmon"
+  },
+  {
+    "question": "How many calories equal one pound of fat?",
+    "options": ["1500", "2500", "3500", "4500"],
+    "answer": "3500"
+  },
+  {
+    "question": "Which vitamin helps in wound healing?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin C"
+  },
+  {
+    "question": "What is the normal resting heart rate for adults?",
+    "options": ["40–60 bpm", "60–100 bpm", "100–120 bpm", "120–140 bpm"],
+    "answer": "60–100 bpm"
+  },
+  {
+    "question": "Which hormone regulates blood sugar?",
+    "options": ["Estrogen", "Insulin", "Cortisol", "Serotonin"],
+    "answer": "Insulin"
+  },
+  {
+    "question": "What is the most effective exercise for building core strength?",
+    "options": ["Squats", "Push-ups", "Plank", "Lunges"],
+    "answer": "Plank"
+  },
+  {
+    "question": "Which of these is a complex carbohydrate?",
+    "options": ["White bread", "Candy", "Oatmeal", "Soda"],
+    "answer": "Oatmeal"
+  },
+  {
+    "question": "Which system controls all voluntary and involuntary actions?",
+    "options": ["Digestive system", "Respiratory system", "Nervous system", "Circulatory system"],
+    "answer": "Nervous system"
+  },
+  {
+    "question": "What is a common symptom of dehydration?",
+    "options": ["Blurred vision", "Increased appetite", "Fatigue", "Excessive sweating"],
+    "answer": "Fatigue"
+  },
+  {
+    "question": "Which type of cholesterol is considered good?",
+    "options": ["HDL", "LDL", "VLDL", "Triglycerides"],
+    "answer": "HDL"
+  },
+  {
+    "question": "Which organ produces insulin?",
+    "options": ["Liver", "Pancreas", "Stomach", "Gallbladder"],
+    "answer": "Pancreas"
+  },
+  {
+    "question": "What does hydration help regulate in the body?",
+    "options": ["Blood pressure", "Digestion", "Temperature", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which vitamin is best known for boosting immunity?",
+    "options": ["Vitamin D", "Vitamin B6", "Vitamin C", "Vitamin E"],
+    "answer": "Vitamin C"
+  },
+  {
+    "question": "What is the most important meal of the day?",
+    "options": ["Lunch", "Dinner", "Breakfast", "Snacks"],
+    "answer": "Breakfast"
+  },
+  {
+    "question": "Which of the following is a mental health benefit of regular exercise?",
+    "options": ["Improved memory", "Reduced anxiety", "Better mood", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which nutrient is crucial for red blood cell production?",
+    "options": ["Calcium", "Iron", "Vitamin K", "Magnesium"],
+    "answer": "Iron"
+  },
+  {
+    "question": "What is the body's largest internal organ?",
+    "options": ["Heart", "Liver", "Lungs", "Stomach"],
+    "answer": "Liver"
+  },
+  {
+    "question": "Which fitness component measures heart and lung endurance?",
+    "options": ["Flexibility", "Body composition", "Muscular strength", "Cardiovascular fitness"],
+    "answer": "Cardiovascular fitness"
+  },
+  {
+    "question": "Which type of yoga is known for its flowing movements?",
+    "options": ["Hatha", "Kundalini", "Vinyasa", "Bikram"],
+    "answer": "Vinyasa"
+  },
+  {
+    "question": "What does mindfulness meditation mainly help with?",
+    "options": ["Muscle gain", "Weight loss", "Stress reduction", "Cardio endurance"],
+    "answer": "Stress reduction"
+  },
+  {
+    "question": "Which vitamin helps in calcium absorption?",
+    "options": ["Vitamin B12", "Vitamin C", "Vitamin D", "Vitamin K"],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "Which of these is a healthy fat source?",
+    "options": ["Butter", "Coconut oil", "Avocado", "Lard"],
+    "answer": "Avocado"
+  },
+  {
+    "question": "Which component of food helps regulate digestion?",
+    "options": ["Protein", "Fat", "Fiber", "Water"],
+    "answer": "Fiber"
+  },
+  {
+    "question": "What is the best time to stretch for flexibility?",
+    "options": ["Before workout", "After workout", "During sleep", "Before eating"],
+    "answer": "After workout"
+  }
+]

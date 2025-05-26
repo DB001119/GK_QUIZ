@@ -1,0 +1,192 @@
+[
+  {
+    "question": "What is the name of Google's AI video model released in 2025?",
+    "options": ["Veo 3", "Gemini Video", "Imagen Ultra", "DeepFrame"],
+    "answer": "Veo 3"
+  },
+  {
+    "question": "Which company launched the humanoid robot 'Figure 02' in 2024?",
+    "options": ["Boston Dynamics", "Tesla", "Agility Robotics", "Figure AI"],
+    "answer": "Figure AI"
+  },
+  {
+    "question": "Apple's 2024 MacBook Pro models are powered by which chip?",
+    "options": ["M2 Ultra", "M3", "A17 Pro", "M2 Max"],
+    "answer": "M3"
+  },
+  {
+    "question": "Which AI model by DeepMind discovered over 2 million new materials?",
+    "options": ["GNoME", "AlphaFold", "MaterialNet", "FusionAI"],
+    "answer": "GNoME"
+  },
+  {
+    "question": "Tesla’s humanoid robot is known as?",
+    "options": ["TeslaBot", "Neo", "Optimus", "AutoBot"],
+    "answer": "Optimus"
+  },
+  {
+    "question": "Which car company is the world’s largest EV seller in 2025?",
+    "options": ["Tesla", "BYD", "Nio", "Ford"],
+    "answer": "BYD"
+  },
+  {
+    "question": "What is the core architecture used in ChatGPT?",
+    "options": ["Transformer", "CNN", "LSTM", "GAN"],
+    "answer": "Transformer"
+  },
+  {
+    "question": "Which company demonstrated 100+ qubit quantum advantage in 2024?",
+    "options": ["IBM", "Google", "Intel", "D-Wave"],
+    "answer": "IBM"
+  },
+  {
+    "question": "What is Apple’s spatial computing headset called?",
+    "options": ["Apple Glass", "Vision Pro", "Reality Lens", "MacAR"],
+    "answer": "Vision Pro"
+  },
+  {
+    "question": "Which platform is known for hosting open-source AI models?",
+    "options": ["OpenAI", "Hugging Face", "NVIDIA Omniverse", "Anthropic"],
+    "answer": "Hugging Face"
+  },
+  {
+    "question": "Which AI technique is used to generate realistic images?",
+    "options": ["GAN", "LSTM", "SVM", "BERT"],
+    "answer": "GAN"
+  },
+  {
+    "question": "Which smartphone brand first featured a 200MP camera?",
+    "options": ["Samsung", "Xiaomi", "OnePlus", "Google Pixel"],
+    "answer": "Xiaomi"
+  },
+  {
+    "question": "Which console is made by Sony?",
+    "options": ["Xbox", "Nintendo Switch", "PlayStation", "Steam Deck"],
+    "answer": "PlayStation"
+  },
+  {
+    "question": "Which OS powers Apple Watches?",
+    "options": ["watchOS", "iOS", "wearOS", "macOS"],
+    "answer": "watchOS"
+  },
+  {
+    "question": "What does LiDAR stand for?",
+    "options": ["Light Detection and Ranging", "Long Distance Radar", "Laser Imaging Device", "Light Differential Array"],
+    "answer": "Light Detection and Ranging"
+  },
+  {
+    "question": "Solid-state batteries are known for...",
+    "options": ["Heavier weight", "Shorter lifespan", "Higher energy density", "Lower voltage"],
+    "answer": "Higher energy density"
+  },
+  {
+    "question": "Which programming language is used for iOS app development?",
+    "options": ["Swift", "Kotlin", "Java", "Python"],
+    "answer": "Swift"
+  },
+  {
+    "question": "Which AI model by DeepMind is used for music generation?",
+    "options": ["Lyria", "MusicGen", "SoundFlow", "MuseNet"],
+    "answer": "Lyria"
+  },
+  {
+    "question": "What is Meta’s social VR platform called?",
+    "options": ["Meta Rooms", "Reality Labs", "Horizon Worlds", "ZuckSpace"],
+    "answer": "Horizon Worlds"
+  },
+  {
+    "question": "Who owns GitHub?",
+    "options": ["Google", "Apple", "Microsoft", "Amazon"],
+    "answer": "Microsoft"
+  },
+  {
+    "question": "Which company dominates GPU AI hardware in 2025?",
+    "options": ["AMD", "Intel", "NVIDIA", "ARM"],
+    "answer": "NVIDIA"
+  },
+  {
+    "question": "Which AI helps robots with physical world understanding?",
+    "options": ["Gemini Robotics", "AlphaBot", "GPT-Robo", "ThinkAI"],
+    "answer": "Gemini Robotics"
+  },
+  {
+    "question": "Apple's voice assistant is called?",
+    "options": ["Cortana", "Siri", "Alexa", "Jarvis"],
+    "answer": "Siri"
+  },
+  {
+    "question": "GPT in ChatGPT stands for?",
+    "options": ["Generative Pre-trained Transformer", "General Prompt Toolkit", "Global Predictive Transformer", "Generic Processing Tech"],
+    "answer": "Generative Pre-trained Transformer"
+  },
+  {
+    "question": "Which country leads global 5G deployment?",
+    "options": ["USA", "China", "South Korea", "Japan"],
+    "answer": "China"
+  },
+  {
+    "question": "Which browser is developed by Microsoft?",
+    "options": ["Edge", "Chrome", "Firefox", "Opera"],
+    "answer": "Edge"
+  },
+  {
+    "question": "What unit does a quantum computer use?",
+    "options": ["Bit", "Byte", "Qubit", "Neurobyte"],
+    "answer": "Qubit"
+  },
+  {
+    "question": "Figure AI focuses on developing what?",
+    "options": ["Voice assistants", "AI chips", "Humanoid robots", "Chatbots"],
+    "answer": "Humanoid robots"
+  },
+  {
+    "question": "Which company makes Snapdragon chips?",
+    "options": ["Samsung", "Intel", "Qualcomm", "MediaTek"],
+    "answer": "Qualcomm"
+  },
+  {
+    "question": "Tesla's FSD uses which primary tech?",
+    "options": ["Radar", "LiDAR", "Neural networks & vision", "Infrared sensors"],
+    "answer": "Neural networks & vision"
+  },
+  {
+    "question": "Which AI startup focuses on long-context documents?",
+    "options": ["Cohere", "Anthropic", "Inflection", "Perplexity"],
+    "answer": "Anthropic"
+  },
+  {
+    "question": "Which AI tool clones voice using short audio samples?",
+    "options": ["Whisper", "ElevenLabs", "Suno", "Replica"],
+    "answer": "ElevenLabs"
+  },
+  {
+    "question": "Google’s Project Starline focuses on?",
+    "options": ["Quantum computing", "3D video calls", "AR Glasses", "AI in cars"],
+    "answer": "3D video calls"
+  },
+  {
+    "question": "Which AI creates 3D environments from text?",
+    "options": ["Genie", "Luma", "RunwayML", "DreamFusion"],
+    "answer": "Genie"
+  },
+  {
+    "question": "LiveSpeech is a real-time feature for?",
+    "options": ["Apple Vision Pro", "Siri", "Google Pixel", "Microsoft HoloLens"],
+    "answer": "Apple Vision Pro"
+  },
+  {
+    "question": "Which car introduced the Cybertruck?",
+    "options": ["Ford", "Lucid", "Tesla", "Rivian"],
+    "answer": "Tesla"
+  },
+  {
+    "question": "What does ImageBind by Meta focus on?",
+    "options": ["Image compression", "Multimodal AI", "Face detection", "Sound labeling"],
+    "answer": "Multimodal AI"
+  },
+  {
+    "question": "Wi-Fi 7 improves mainly on?",
+    "options": ["Cost", "Latency and bandwidth", "Battery life", "Security"],
+    "answer": "Latency and bandwidth"
+  }
+]

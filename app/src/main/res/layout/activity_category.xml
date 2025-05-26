@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp" android:background="@color/background">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical" android:gravity="center">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:fontFamily="@font/jetbrains_mono"
+            android:text="Select a Quiz Category" android:textSize="24sp" android:textStyle="bold"
+            android:paddingBottom="16dp" android:textColor="@color/textPrimary"/>
+
+        <!-- Repeat for 8 buttons -->
+        <Button android:id="@+id/btnScience" android:text="Science" style="@style/CategoryButton" />
+        <Button android:id="@+id/btnHistory" android:text="History" style="@style/CategoryButton" />
+        <Button android:id="@+id/btnTech" android:text="Technology" style="@style/CategoryButton" />
+        <Button android:id="@+id/btnSports" android:text="Sports" style="@style/CategoryButton" />
+        <Button android:id="@+id/btnMusic" android:text="Music" style="@style/CategoryButton" />
+        <Button android:id="@+id/btnGeography" android:text="Geography" style="@style/CategoryButton" />
+        <Button android:id="@+id/btnMovies" android:text="Movies" style="@style/CategoryButton" />
+        <Button android:id="@+id/btnFitness" android:text="Fitness" style="@style/CategoryButton" />
+    </LinearLayout>
+</ScrollView>

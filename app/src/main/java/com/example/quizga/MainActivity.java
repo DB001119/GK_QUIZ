@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 🎮 Start Quiz
         btnStartQuiz.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, QuizActivity.class));
+            startActivity(new Intent(MainActivity.this, CategoryActivity.class));
         });
 
         // ⚙️ Open Settings

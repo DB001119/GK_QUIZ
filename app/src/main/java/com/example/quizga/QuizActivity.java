@@ -59,7 +59,8 @@ public class QuizActivity extends AppCompatActivity {
 
     private void loadQuestionsFromJson() {
         try {
-            InputStream is = getAssets().open("general_knowledge_quiz.json");
+            String category = getIntent().getStringExtra("category");
+            InputStream is = getAssets().open(category +"_quiz.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

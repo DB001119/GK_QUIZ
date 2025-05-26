@@ -1,0 +1,197 @@
+[
+  {
+    "question": "Who is known as the 'King of Pop'?",
+    "options": ["Elvis Presley", "Michael Jackson", "Justin Timberlake", "Prince"],
+    "answer": "Michael Jackson"
+  },
+  {
+    "question": "Which artist released the hit song 'Shape of You'?",
+    "options": ["Ed Sheeran", "Justin Bieber", "Shawn Mendes", "Harry Styles"],
+    "answer": "Ed Sheeran"
+  },
+  {
+    "question": "What is the most streamed song on Spotify as of 2024?",
+    "options": ["Blinding Lights", "Despacito", "Shape of You", "Dance Monkey"],
+    "answer": "Blinding Lights"
+  },
+  {
+    "question": "Which singer is known for the 2021 hit 'As It Was'?",
+    "options": ["Zayn Malik", "Harry Styles", "Ed Sheeran", "Niall Horan"],
+    "answer": "Harry Styles"
+  },
+  {
+    "question": "Who was the first woman to be inducted into the Rock and Roll Hall of Fame?",
+    "options": ["Tina Turner", "Madonna", "Aretha Franklin", "Whitney Houston"],
+    "answer": "Aretha Franklin"
+  },
+  {
+    "question": "Which band released the album 'Abbey Road'?",
+    "options": ["The Beatles", "The Rolling Stones", "Queen", "Nirvana"],
+    "answer": "The Beatles"
+  },
+  {
+    "question": "What genre is Billie Eilish primarily known for?",
+    "options": ["Jazz", "Pop", "Country", "EDM"],
+    "answer": "Pop"
+  },
+  {
+    "question": "Who is the lead vocalist of Coldplay?",
+    "options": ["Chris Martin", "Adam Levine", "Sam Smith", "Harry Styles"],
+    "answer": "Chris Martin"
+  },
+  {
+    "question": "Which singer's fans are known as the 'BeyHive'?",
+    "options": ["Adele", "Beyoncé", "Rihanna", "Doja Cat"],
+    "answer": "Beyoncé"
+  },
+  {
+    "question": "Which artist had a 2020 hit with 'Watermelon Sugar'?",
+    "options": ["Shawn Mendes", "Zayn", "Harry Styles", "Justin Bieber"],
+    "answer": "Harry Styles"
+  },
+  {
+    "question": "What musical instrument does Yo-Yo Ma play?",
+    "options": ["Violin", "Cello", "Piano", "Flute"],
+    "answer": "Cello"
+  },
+  {
+    "question": "Which rapper released the album 'The College Dropout'?",
+    "options": ["Drake", "Kendrick Lamar", "Kanye West", "Jay-Z"],
+    "answer": "Kanye West"
+  },
+  {
+    "question": "Who sang the 2023 global hit 'Flowers'?",
+    "options": ["Miley Cyrus", "Olivia Rodrigo", "Ariana Grande", "Sabrina Carpenter"],
+    "answer": "Miley Cyrus"
+  },
+  {
+    "question": "Which K-pop group includes members RM, Jin, and Jungkook?",
+    "options": ["EXO", "BLACKPINK", "TXT", "BTS"],
+    "answer": "BTS"
+  },
+  {
+    "question": "What is Taylor Swift’s fanbase called?",
+    "options": ["Swifties", "Taylords", "Taylor Gang", "Swifters"],
+    "answer": "Swifties"
+  },
+  {
+    "question": "Which classical composer became deaf later in life?",
+    "options": ["Mozart", "Bach", "Beethoven", "Chopin"],
+    "answer": "Beethoven"
+  },
+  {
+    "question": "Who is known for the hit single 'Hello' released in 2015?",
+    "options": ["Adele", "Rihanna", "Sia", "Beyoncé"],
+    "answer": "Adele"
+  },
+  {
+    "question": "Which band recorded 'Bohemian Rhapsody'?",
+    "options": ["Queen", "The Who", "AC/DC", "The Beatles"],
+    "answer": "Queen"
+  },
+  {
+    "question": "Which genre is associated with artists like Tiësto and Avicii?",
+    "options": ["Hip-Hop", "Country", "EDM", "Rock"],
+    "answer": "EDM"
+  },
+  {
+    "question": "What is the title of Olivia Rodrigo’s debut album?",
+    "options": ["SOUR", "BITTER", "SPICE", "HEART"],
+    "answer": "SOUR"
+  },
+  {
+    "question": "Who performed the halftime show at Super Bowl 2023?",
+    "options": ["The Weeknd", "Shakira", "Rihanna", "Bruno Mars"],
+    "answer": "Rihanna"
+  },
+  {
+    "question": "Which artist is famous for the song 'Hips Don’t Lie'?",
+    "options": ["Shakira", "Jennifer Lopez", "Rihanna", "Camila Cabello"],
+    "answer": "Shakira"
+  },
+  {
+    "question": "Which male singer is known as the 'Rocket Man'?",
+    "options": ["David Bowie", "Elton John", "Freddie Mercury", "Prince"],
+    "answer": "Elton John"
+  },
+  {
+    "question": "Which instrument has black and white keys?",
+    "options": ["Flute", "Violin", "Guitar", "Piano"],
+    "answer": "Piano"
+  },
+  {
+    "question": "Which group sang 'Dynamite' and 'Butter'?",
+    "options": ["BLACKPINK", "BTS", "EXO", "SEVENTEEN"],
+    "answer": "BTS"
+  },
+  {
+    "question": "What country is reggae music originally from?",
+    "options": ["USA", "Nigeria", "Brazil", "Jamaica"],
+    "answer": "Jamaica"
+  },
+  {
+    "question": "Which singer is known for the 'Chromatica' album?",
+    "options": ["Lady Gaga", "Dua Lipa", "Katy Perry", "Ariana Grande"],
+    "answer": "Lady Gaga"
+  },
+  {
+    "question": "Who had a hit with 'Bad Guy' in 2019?",
+    "options": ["Lorde", "Billie Eilish", "Ava Max", "Camila Cabello"],
+    "answer": "Billie Eilish"
+  },
+  {
+    "question": "Which band’s lead singer was Freddie Mercury?",
+    "options": ["U2", "Queen", "The Rolling Stones", "The Police"],
+    "answer": "Queen"
+  },
+  {
+    "question": "Who sings 'Levitating' and 'Don’t Start Now'?",
+    "options": ["Dua Lipa", "Charli XCX", "Selena Gomez", "Doja Cat"],
+    "answer": "Dua Lipa"
+  },
+  {
+    "question": "Which classical composer wrote 'The Four Seasons'?",
+    "options": ["Vivaldi", "Mozart", "Beethoven", "Handel"],
+    "answer": "Vivaldi"
+  },
+  {
+    "question": "What is the name of Drake’s record label?",
+    "options": ["Aftermath", "Young Money", "OVO Sound", "Roc Nation"],
+    "answer": "OVO Sound"
+  },
+  {
+    "question": "Who was the lead singer of Nirvana?",
+    "options": ["Dave Grohl", "Kurt Cobain", "Chris Cornell", "Eddie Vedder"],
+    "answer": "Kurt Cobain"
+  },
+  {
+    "question": "Which instrument is primarily used in jazz music?",
+    "options": ["Electric guitar", "Sitar", "Saxophone", "Harp"],
+    "answer": "Saxophone"
+  },
+  {
+    "question": "What musical note is one semitone above A?",
+    "options": ["A#", "B", "G#", "F#"],
+    "answer": "A#"
+  },
+  {
+    "question": "Which singer made history with 32 Grammy wins (as of 2023)?",
+    "options": ["Adele", "Beyoncé", "Taylor Swift", "Whitney Houston"],
+    "answer": "Beyoncé"
+  },
+  {
+    "question": "Which movie featured the hit song 'Shallow'?",
+    "options": ["La La Land", "A Star is Born", "The Greatest Showman", "Moulin Rouge"],
+    "answer": "A Star is Born"
+  },
+  {
+    "question": "Which British boy band had hits like 'What Makes You Beautiful'?",
+    "options": ["The Vamps", "One Direction", "Take That", "Blue"],
+    "answer": "One Direction"
+  },
+  {
+    "question": "Which singer is known for 'Rolling in the Deep'?",
+    "options": ["Adele", "Jessie J", "Kelly Clarkson", "Lana Del Rey"],
+    "answer": "Adele"
+  }
+]

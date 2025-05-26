@@ -1,0 +1,197 @@
+[
+  {
+    "question": "Which movie won Best Picture at the 2023 Oscars?",
+    "options": ["Top Gun: Maverick", "Everything Everywhere All at Once", "The Fabelmans", "Avatar: The Way of Water"],
+    "answer": "Everything Everywhere All at Once"
+  },
+  {
+    "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+    "options": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Tom Holland"],
+    "answer": "Robert Downey Jr."
+  },
+  {
+    "question": "Which animated movie features a snowman named Olaf?",
+    "options": ["Tangled", "Frozen", "Moana", "Encanto"],
+    "answer": "Frozen"
+  },
+  {
+    "question": "Which actor portrayed the Joker in 'The Dark Knight'?",
+    "options": ["Joaquin Phoenix", "Heath Ledger", "Jack Nicholson", "Jared Leto"],
+    "answer": "Heath Ledger"
+  },
+  {
+    "question": "What is the name of the hobbit played by Elijah Wood?",
+    "options": ["Bilbo Baggins", "Frodo Baggins", "Samwise Gamgee", "Pippin Took"],
+    "answer": "Frodo Baggins"
+  },
+  {
+    "question": "Which film features the quote 'I'm the king of the world!'?",
+    "options": ["Titanic", "Braveheart", "Gladiator", "The Lion King"],
+    "answer": "Titanic"
+  },
+  {
+    "question": "What is the highest-grossing movie of all time (as of 2024)?",
+    "options": ["Avengers: Endgame", "Titanic", "Avatar", "Spider-Man: No Way Home"],
+    "answer": "Avatar"
+  },
+  {
+    "question": "Which movie features a DeLorean time machine?",
+    "options": ["The Matrix", "Inception", "Back to the Future", "Looper"],
+    "answer": "Back to the Future"
+  },
+  {
+    "question": "Who directed 'Jurassic Park'?",
+    "options": ["James Cameron", "Steven Spielberg", "Peter Jackson", "Ridley Scott"],
+    "answer": "Steven Spielberg"
+  },
+  {
+    "question": "Which 2021 Disney movie is set in Colombia?",
+    "options": ["Encanto", "Coco", "Raya and the Last Dragon", "Luca"],
+    "answer": "Encanto"
+  },
+  {
+    "question": "Which Harry Potter film was the first to be released?",
+    "options": ["The Goblet of Fire", "The Sorcerer’s Stone", "The Chamber of Secrets", "The Prisoner of Azkaban"],
+    "answer": "The Sorcerer’s Stone"
+  },
+  {
+    "question": "Which actor played Jack in 'Titanic'?",
+    "options": ["Brad Pitt", "Matt Damon", "Leonardo DiCaprio", "Johnny Depp"],
+    "answer": "Leonardo DiCaprio"
+  },
+  {
+    "question": "Which movie features the character 'Forrest Gump'?",
+    "options": ["Cast Away", "The Terminal", "Forrest Gump", "Saving Private Ryan"],
+    "answer": "Forrest Gump"
+  },
+  {
+    "question": "Which movie is about a killer shark terrorizing a beach town?",
+    "options": ["Deep Blue Sea", "Jaws", "The Meg", "Sharknado"],
+    "answer": "Jaws"
+  },
+  {
+    "question": "In which movie does a character say, 'May the Force be with you'?",
+    "options": ["Star Trek", "Guardians of the Galaxy", "Star Wars", "Dune"],
+    "answer": "Star Wars"
+  },
+  {
+    "question": "Who directed the 'Inception' and 'Tenet' movies?",
+    "options": ["Christopher Nolan", "James Cameron", "Quentin Tarantino", "Denis Villeneuve"],
+    "answer": "Christopher Nolan"
+  },
+  {
+    "question": "What is the name of the wizarding school in Harry Potter?",
+    "options": ["Beauxbatons", "Durmstrang", "Hogwarts", "Ilvermorny"],
+    "answer": "Hogwarts"
+  },
+  {
+    "question": "Who played Captain Jack Sparrow in 'Pirates of the Caribbean'?",
+    "options": ["Johnny Depp", "Orlando Bloom", "Brad Pitt", "Keanu Reeves"],
+    "answer": "Johnny Depp"
+  },
+  {
+    "question": "Which 90s Disney movie features a monkey named Abu?",
+    "options": ["The Lion King", "Mulan", "Aladdin", "Tarzan"],
+    "answer": "Aladdin"
+  },
+  {
+    "question": "Which film series features a character named John Wick?",
+    "options": ["Fast & Furious", "The Equalizer", "John Wick", "Taken"],
+    "answer": "John Wick"
+  },
+  {
+    "question": "Who voices Gru in the 'Despicable Me' movies?",
+    "options": ["Will Ferrell", "Jim Carrey", "Steve Carell", "Adam Sandler"],
+    "answer": "Steve Carell"
+  },
+  {
+    "question": "Which 2020 movie features time inversion and espionage?",
+    "options": ["Interstellar", "Dune", "Tenet", "Arrival"],
+    "answer": "Tenet"
+  },
+  {
+    "question": "Which 2022 movie is based on a video game featuring blue hedgehogs?",
+    "options": ["Detective Pikachu", "Sonic the Hedgehog 2", "Mario Bros", "Crash Bandicoot"],
+    "answer": "Sonic the Hedgehog 2"
+  },
+  {
+    "question": "Which studio produced 'Finding Nemo'?",
+    "options": ["DreamWorks", "Illumination", "Pixar", "Sony"],
+    "answer": "Pixar"
+  },
+  {
+    "question": "Who directed the 'Avatar' movies?",
+    "options": ["James Cameron", "George Lucas", "Peter Jackson", "Jon Favreau"],
+    "answer": "James Cameron"
+  },
+  {
+    "question": "Which Marvel movie introduced Wakanda?",
+    "options": ["Black Panther", "Doctor Strange", "Thor: Ragnarok", "Ant-Man"],
+    "answer": "Black Panther"
+  },
+  {
+    "question": "Which actor played Batman in 'The Dark Knight' trilogy?",
+    "options": ["Ben Affleck", "Christian Bale", "Robert Pattinson", "Michael Keaton"],
+    "answer": "Christian Bale"
+  },
+  {
+    "question": "What is the name of the main character in 'The Matrix'?",
+    "options": ["Morpheus", "Neo", "Trinity", "Smith"],
+    "answer": "Neo"
+  },
+  {
+    "question": "Which movie popularized the phrase 'Why so serious?'",
+    "options": ["Batman Begins", "The Dark Knight", "Suicide Squad", "The Joker"],
+    "answer": "The Dark Knight"
+  },
+  {
+    "question": "Who played Wonder Woman in the DCEU?",
+    "options": ["Brie Larson", "Scarlett Johansson", "Gal Gadot", "Zendaya"],
+    "answer": "Gal Gadot"
+  },
+  {
+    "question": "Which movie features the song 'Let It Go'?",
+    "options": ["Tangled", "Frozen", "Moana", "Brave"],
+    "answer": "Frozen"
+  },
+  {
+    "question": "Which actor plays Ethan Hunt in the Mission: Impossible series?",
+    "options": ["Tom Cruise", "Matt Damon", "Keanu Reeves", "Henry Cavill"],
+    "answer": "Tom Cruise"
+  },
+  {
+    "question": "What is the name of Simba’s father in 'The Lion King'?",
+    "options": ["Timon", "Zazu", "Mufasa", "Scar"],
+    "answer": "Mufasa"
+  },
+  {
+    "question": "What movie is based on a magical board game?",
+    "options": ["Zathura", "Jumanji", "The Game", "Pixels"],
+    "answer": "Jumanji"
+  },
+  {
+    "question": "In which movie does a robot say 'I'll be back'?",
+    "options": ["Robocop", "Iron Man", "Terminator", "Transformers"],
+    "answer": "Terminator"
+  },
+  {
+    "question": "Who played the Genie in the live-action 'Aladdin' (2019)?",
+    "options": ["Dwayne Johnson", "Will Smith", "Jamie Foxx", "Kevin Hart"],
+    "answer": "Will Smith"
+  },
+  {
+    "question": "Which 2021 Marvel film introduces Shang-Chi?",
+    "options": ["Eternals", "Shang-Chi and the Legend of the Ten Rings", "Doctor Strange 2", "Ant-Man 3"],
+    "answer": "Shang-Chi and the Legend of the Ten Rings"
+  },
+  {
+    "question": "Which franchise is based on transforming alien robots?",
+    "options": ["Power Rangers", "Transformers", "Pacific Rim", "Voltron"],
+    "answer": "Transformers"
+  },
+  {
+    "question": "Which movie features a magical nanny played by Julie Andrews?",
+    "options": ["Mary Poppins", "Nanny McPhee", "Matilda", "The Sound of Music"],
+    "answer": "Mary Poppins"
+  }
+]

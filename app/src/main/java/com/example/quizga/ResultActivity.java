@@ -49,7 +49,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         buttonRetry.setOnClickListener(view -> {
-            startActivity(new Intent(ResultActivity.this, QuizActivity.class));
+            startActivity(new Intent(ResultActivity.this, CategoryActivity.class));
             finish();
         });
 
